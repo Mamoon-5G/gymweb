@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: #1a2332;
+    color: #fff;
+}
+
+nav {
+    position: fixed;
+    min-width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #1a2332;
+    padding: 22px;
+    box-shadow: 0px 22 6px 22 rgb(31, 30, 30);
+    color: #fff;
+}
+
+nav ul li a {
+    margin-inline: 22px;
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a:hover {
+    color: rgb(20, 251, 20);
+    border-bottom: 22 solid rgb(20, 251, 20);
+}
+
+nav ul {
+    margin-right: 63px;
+    margin-top: 6px;
+}
+
+.logo {
+    font-size: 25px;
+    color: greenyellow;
+    margin-left: 33px;
+}
+
+ul li button {
+    width: 100px;
+    height: 33px;
+    background-color: green;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+ul li button:hover {
+    border: 22 solid #fff;
+    background-color: transparent;
+    color: green;
+    cursor: pointer;
+}
+ul li a:active{
+    border-bottom: 2px solid rgb(20, 251, 20);
+}
+
+/* main */
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    min-width: 100%;
+}
+
+.home img {
+    width: 39%;
+    margin-top: 130px;
+}
+
+.homeText h1 {
+    font-size: 5em;
+    color: rgb(20, 251, 20);
+}
+
+.homeText h3 {
+    /* margin-top: 22px; */
+    font-size: 2rem;
+}
+
+.homeText p {
+    margin-top: 22px;
+    color: silver;
+}
+
+.homeText button {
+    /* margin-top: 22px; */
+    font-size: 1.5rem;
+    width: 140px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.homeText button:hover {
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: green;
+}
+
+.head {
+    text-align: center;
+    padding: 30px;
+}
+
+.head span {
+    color: rgb(20, 251, 20);
+}
+/* Program */
+.ourPrgm {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ourPrgm .crd {
+    text-align: center;
+}
+
+.ourPrgm .crd img{
+    max-width: 70%;
+}
+.ourPrgm .crd img:hover{
+    cursor: pointer;
+}
+
+/* Plan */
+.ourPlans{
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    align-items: center;
+}
+.ourPlans .card{
+    min-width: 25%;
+    height: auto;
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    margin-inline: 22px;
+    padding: 4px;
+}
+.card i {
+    font-size: 2rem;
+    margin-top: 2%;
+    color: orange;
+}
+.card h3{
+    /* margin-top: 22px; */
+    color: rgb(20, 251, 20);
+}
+.card h1{
+    margin-top: 3%;
+    color: rgb(81, 233, 81);
+}
+.card p{
+    margin-top: 12px;
+    color: silver;
+}
+
+.card button{
+    margin-top: 2%;
+    max-width: 120px;
+    min-height: 33px;
+    background-color: orange;
+    border: none;
+    color: green;
+    font-size: 1.50rem;
+}
+.card button:hover{
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: rgb(54, 234, 54);
+    cursor: pointer;
+}
+.card:hover{
+    transition: 0.7s ease;
+    width: 21%;
+    height: auto;
+    background-color: #000;
+    font-size: 18px;
+    
+}
+
+/* Blog */
+.ourBlog{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ourBlog .bCard{
+    max-width: 20%;
+    height: 400px;
+    /* margin-inline: 22px; */
+    background-color: rgb(48, 47, 47);
+    /* text-align: center; */
+}
+.bCard img{
+    max-width: 100%;
+}
+.bCard p{
+    margin-top: 22px;
+}
+.bText{
+    margin-top: 11px;
+    margin-left: 6px;
+}
+.bText a {
+    text-decoration: none;
+    width: 100px;
+    padding: 11px;
+    background-color: green;
+    color: #fff;
+    position: absolute;
+    margin-top: 22px;
+}
+.contact{
+    width: 100vw;
+    min-height: 100vh;
+}
+.contactPage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contactPage .contactText{
+    color: rgb(41, 234, 41);
+    margin-top: 94px;
+    font-size: 40px;
+}
+.contactPage img{
+    max-width: 60%;
+
+}
+
+.contactUs{
+    text-align: center;
+    margin-top: 22px;
+
+}
+.contactUs input{
+    width: 320px;
+    min-height: 33px;
+    border: none;
+    border-radius: 2px;
+    
+    outline: none;
+    font-size: 22px;
+    padding: 8px;
+    margin-top: 18px;
+}
+.contactUs button{
+    width: 300px;
+    height: 45px;
+    background-color: rgb(42, 245, 42);
+    color: #fff;
+    font-size: 22px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 22px;
+}
+
+.footer{
+    min-width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px;
+    box-shadow: 0px 2px 6px 4px rgb(36, 36, 36);
+}
+.footer .footerText{
+    line-height: 1.5;
+    min-width: 20%;
+}
+.footerText p{
+    margin-top: 11px;
+    color: silver;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    min-width: 100%;
+}
+.copyright p{
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+.copyright a{
+    color: rgb(47, 255, 110);
+}
+
+@media only screen and (max-width: 800px) {
+    nav ul li a {
+        margin-inline: 10px;
+        text-decoration: none;
+        color: #fff;
+    }
+    ul li button {
+        width: 100px;
+        height: 23px;
+    }
+    .head{
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .logo {
+        font-size: 25px;
+        text-align: center;
+    }
+    .home{
+        padding: 10px;
+        flex-direction: column-reverse;
+    }
+
+    .homeText h1 {
+        font-size: 2rem;
+    }
+    .card i {
+        font-size: 15px;
+ 
+    }
+    .card h1{
+        font-size: 14px;
+    }
+    .card h3{
+        font-size: 10px;
+    }
+    .card p{
+        font-size: 8px;
+    }
+    .card button{
+        font-size: 14px;
+    }
+    .ourBlog .bCard{
+        height: auto;
+    }
+    .bCard p{
+        margin-top: 12px;
+    }
+    .bText{
+        font-size: 8px;
+    }
+    .bCard a{
+        width: 50px;
+        padding: 2px;
+        margin: 8px;
+    }
+    .contact{
+        margin-top: 20px;
+    }
+    .contactPage .contactText{
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    .footer{
+        height: 20vh;
+    }
+    .footerText h2{
+        font-size: 12px;
+    }
+    .footerText p{
+        font-size: 10px;
+    }
+}
